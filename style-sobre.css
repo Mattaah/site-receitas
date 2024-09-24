@@ -138,9 +138,9 @@
     text-align: center;
     top: -685px;
     position: relative;
-    font-size: 18px;
-    font-family: arial;
-    padding-top: 10px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
   }
 
  .recipe-4 {
@@ -158,13 +158,19 @@
     position: relative;
     top: -700px;
     padding-top: 40px;
-    color: 	#F08080;
+    color: #A52A2A;
     font-size: 40px;
   }
 
   .imagens {
+    position: relative;
+    left: 700px;
     text-align: center; /* Centraliza a imagem horizontalmente dentro do container */
-    margin-top: 20px;
+    margin-top: -20px;
+    width: 500px; /* Largura fixa */
+    height: 300px; /* Altura fixa */
+    object-fit: cover; /* Mantém a proporção da imagem */
+    margin-bottom: 50px;
   }
 
   .img1 {
@@ -180,5 +186,21 @@
   }
 
   body {
-    background-color: #FFC0CB;
+    background-color: #483D8B;
+    margin: 0;
+    padding: 0;
   }
+
+  .container {
+    max-width: 800px; /* Largura máxima do contêiner */
+    margin: 0 auto; /* Centraliza o contêiner na página */
+    padding: 20px; /* Espaçamento interno */
+  }
+
+  section {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
