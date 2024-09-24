@@ -57,7 +57,7 @@
     transition: 0.3s;
   }
   
-  @media (max-width: 599px) {
+  @media (max-width: 600px) {
     .nav-list {
       position: relative;
       width: 100%; /* Largura total */
@@ -76,6 +76,11 @@
 
     .mobile-menu {
         display: none; /* Remover o menu mobile */
+    }
+
+    .imagens {
+      width: 100%;
+      height: auto;
     }
   }
   
